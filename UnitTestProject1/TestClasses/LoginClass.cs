@@ -47,8 +47,7 @@ namespace UnitTestProject1.TestClasses
         public void SetUp()
         {
             try
-            {
-                          
+            {                          
                 driver = Browsers.Init();
                 LogWriter.Logger("Browser has been initialized");
                 loginObj = new LoginPage(driver);
